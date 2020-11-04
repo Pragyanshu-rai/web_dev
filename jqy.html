@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./bootstrap.css"></link>
+        <link rel="stylesheet" type="text/css" href="./style.css"></link>
+        <script src="./jquery.js"></script>
+    </head>
+    <body>
+		<a href="./index.html">home</a>
+		&nbsp;
+		<a href="./aboutme.html">about_me</a>
+		&nbsp;
+		<a href="./contact.html">contact</a>
+		&nbsp;
+		<a href="./jqy.html">jqy</a>
+		&nbsp;
+		<a href="./count.html">counter</a>
+		&nbsp;
+		<a href="./imggal.html">Image Gallery</a>
+		<hr/>
+        <script type="text/javascript">
+            function saybye()
+            {
+                $('#heading4').html('ok bye');
+                $('#heading4').click(function ()
+                {
+                    $('#heading4').html('Hey !!!!');
+                    $('#heading4').off('click');                
+                });
+            }        
+            function chng()
+            {
+                $('#img1').toggle();
+                $('#img2').toggle();
+            }
+            function cb1()
+            {
+                var ch = $('button').text();
+                console.log(ch);
+                if(ch == 'OFF')
+                    $('button').text('ON');
+                else if(ch == 'ON')
+                    $('button').text('OFF');
+                chng();
+            }
+        </script>
+        <h1 id = "heading1" onclick="jQuery('#heading1').html('bye bye')">hello !!!!!!</h1>  
+        <h1 id = "heading2" onclick="$('#heading2').html('bye again')">hey again !!!!!!</h1>    
+        <h1 id = "heading3" onclick="alert('alert')">Alert !!!!!!</h1>    
+        <h1 id = "heading4" onclick="saybye();">Hey !!!!</h1> 
+        <img id="img1"onclick="chng()" src="b1.jpeg"></img> 
+        <img id="img2"onclick="chng()" src="b2.jpeg"></img>
+        <button onclick="cb1()">OFF</button>
+    </body>
+</html>
