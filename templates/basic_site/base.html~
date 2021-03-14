@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang='en' >
+    <head>
+        <title>Home Page</title>
+        <meta charset="UTF-8" >
+        <meta name="viewport" width="device-width, initial-scale=1" >
+        <link type="text/css" href="{% static 'basic_style.css' %}" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="header">
+            <h1>Home Page</h1>
+            <p>My Home Page</p>
+        </div>
+        <div id="nav_bar" >
+            <a href="#">HOME</a>
+            <a href="#">APPS</a>
+            <a href="#">SOURCE CODE</a>
+            <a href="#" style="float:right;">CREATOR</a>        
+        </div>
+        <div id="main_body">
+            <div class="row" >
+                <div class="side" >
+                    <h3>
+                        Side Panel                
+                    </h3>
+                    <p>
+                        Side content/Image
+                    </p>
+                    <br />
+                    <p>
+                        Side content/Image
+                    </p>
+                    <h4 style="text-align : center">
+                        Side Content
+                    </h4>
+                    <p class='small_image'>
+                        Side small content/Image
+                    </p>
+                    <p class='small_image'>
+                        Side small content/Image
+                    </p>
+                    <p class='small_image'>
+                        Side small content/Image
+                    </p>
+                </div>
+                <div class="main" >
+                    <h3>
+                        Main Panel
+                    </h3>
+                    <p>
+                        Main content/Image
+                    </p>
+                    <br />
+                    <p>
+                        Main content/Image
+                    </p>
+                    <h4 style="text-align : center">
+                        Main Content
+                    </h4>
+                    <p>
+                        Main content/Image again
+                    </p>
+                </div>
+            </div>
+        </div>   
+        <div class="footer">
+            <p id="aboutme" >
+                About me
+            </p>
+            <p style="font-size : 15px" >
+                Pragyanshu Rai
+                <br />
+                <br />
+                Address
+                <br />
+                <br />
+                +91 98576 40132
+            </p>
+        </div>
+    </body>
+</html>
