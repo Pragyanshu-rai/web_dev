@@ -99,10 +99,6 @@
                 </div>
                 <div class="col-lg-12 space"></div>
                 <div class="col-lg-1 text-center">
-                    <div class="space"></div>
-                    <div class="space"></div>
-                    <div class="space"></div>
-                    <div class="space"></div>
                     <div class="align-middle"><button onclick="count2()">&lt;</button></div>
                 </div>
                 <div class="col-lg-10 text-center">

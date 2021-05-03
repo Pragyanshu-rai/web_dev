@@ -18,6 +18,9 @@ img{
 }
 */
 
+.align-top{
+    top : 50%;
+}
 #main_img{
     position : fixed;
     cursor : pointer;

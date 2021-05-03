@@ -3,20 +3,6 @@ body{
     background : cyan;
     color : brown;
 }
-h1{
-    font-size : 40px;
-}
-h1:hover{
-    cursor : pointer;
-}
-img{
-    width : 50px;
-    height : 100px;
-    margin : 30px;
-}
-#img2{
-    display : none;
-}
 button{
     background : black;
     color : white;
