@@ -7,4 +7,5 @@ function show()
     document.getElementById("date").innerHTML = today.gettoday();
     document.getElementById("hr").innerHTML = today.getHours();
     document.getElementById("min").innerHTML = today.getMinutes();
+    console.log("Hey Boi");
 }
