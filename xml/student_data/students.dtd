@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT students (student+)>
+<!ELEMENT student (id, name, branch, year)>
+<!ELEMENT name (firstname, lastname)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT branch (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ATTLIST student roll ID #REQUIRED>

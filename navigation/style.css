@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header{
+    border: 0.25rem solid pink;
+    /* background-color: #dddddd; */
+}
+
+.site-title{
+    text-align: center;
+}
+
+.site-info{
+    color: dodgerblue;
+    margin: 0;
+}
+
+nav ul{
+    padding: 0;
+    /* border: 0.18rem solid greenyellow; */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+nav li{
+    /* border: 0.18rem solid red; */
+    margin: 0 .8em;
+}
+nav a{
+    text-decoration: none;
+    color: darkkhaki;
+}

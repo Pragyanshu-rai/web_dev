@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="students.dtd" type="application/xml-dtd"?>
+<?xml-model href="students.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<?xml-stylesheet href="students.xsl" type="text/xsl"?>
+<!DOCTYPE students SYSTEM "students.dtd">
+<students>
+ <student roll="49">
+  <id>221810304049</id>
+  <name>
+   <firstname>Pragyanshu</firstname>
+   <lastname>Rai</lastname>
+  </name>
+  <branch>CSE</branch>
+  <year>III</year>
+ </student>
+ <student roll="40">
+  <id>221810304040</id>
+  <name>
+   <firstname>Chinmay</firstname>
+   <lastname>Krishna</lastname>
+  </name>
+  <branch>CSE</branch>
+  <year>III</year>
+ </student>
+ <student roll='42'>
+  <id>221810304042</id>
+  <name>
+   <firstname>Parth</firstname>
+   <lastname>Mistry</lastname>
+  </name>
+  <branch>CSE</branch>
+  <year>III</year>
+ </student>
+</students>

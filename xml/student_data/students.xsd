@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+ <xs:element name="students">
+  <xs:complexType>
+   <xs:sequence>
+    <xs:element name="student" maxOccurs="unbounded" minOccurs="3">
+     <xs:complexType>
+      <xs:sequence>
+       <xs:element name="id" type="xs:string"></xs:element>
+       <xs:element name="name">
+        <xs:complexType>
+         <xs:sequence>
+          <xs:element name="firstname" type="xs:string"></xs:element>
+          <xs:element name="lastname" type="xs:string"></xs:element>
+         </xs:sequence>
+        </xs:complexType>
+       </xs:element>
+       <xs:element name="branch" type="xs:string"></xs:element>
+       <xs:element name="year" type="xs:string"></xs:element>
+      </xs:sequence>
+      <xs:attribute name="roll" type="xs:int" use="required"></xs:attribute>
+     </xs:complexType>
+    </xs:element>
+   </xs:sequence>
+  </xs:complexType>
+ </xs:element>
+</xs:schema>
